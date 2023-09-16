@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Ваш сайт</title>
+    <style>
+        body {
+            background-image: url('фон.jpg'); /* Замените 'фон.jpg' на путь к вашему фоновому изображению */
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        button {
+            padding: 15px 30px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <button onclick="window.location.href='ваша_ссылка.html'">Перейти</button>
+</body>
+</html>
